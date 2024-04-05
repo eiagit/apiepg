@@ -1,0 +1,9 @@
+node_modules
+backOf
+.env
+.git
+servNod.bat
+servweb.bat
+webserver.bat
+lab.html
+lab.js
