@@ -13,8 +13,6 @@ ARG src="./package.json"
 copy ${src} ${target} 
 ARG src="./package-lock.json"
 copy ${src} ${target} 
-ARG src="./.env"
-copy ${src} ${target} 
 
 RUN npm install
 

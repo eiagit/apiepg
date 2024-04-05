@@ -4,9 +4,9 @@ import {Execsql} from "./database.js"
 const app = express();
 app.use(express.json());
 app.use(cors());
-
-app.listen(3000,()=>{
-    console.log('Servidor no ar na porta 3000 ')
+const PORT = process.env.PORT || 3000;
+app.listen(PORT,()=>{
+    console.log(`Server Live on port ${PORT}`)
 });
 app.get("/",(req,res)=>{
     const params=[];
